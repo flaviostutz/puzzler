@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  datascience-tools:
+    image: flaviostutz/datascience-tools:2.9.0
+    ports:
+      - 8888:8888
+      - 6006:6006
+    volumes:
+      - /Users/flaviostutz/Documents/development/flaviostutz/puzzler/notebooks:/notebooks
