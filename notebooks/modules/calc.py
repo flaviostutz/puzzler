@@ -13,3 +13,8 @@ def angle_between_points(points):
     
     return math.degrees(math.atan(tgb))
 
+
+def is_near(value1, value2, diff):
+    err = abs(value1 - value2)
+    return err<=diff
+
